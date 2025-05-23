@@ -4,7 +4,7 @@ This is a simple Arduino-based tea timer that uses an **ultrasonic sensor** to d
 
 ---
 
-## 🧰 Features
+## Features
 
 - **Hands-free start:** Timer begins when a cup is placed close to the ultrasonic sensor.
 - **IR Remote Control:**
@@ -17,7 +17,7 @@ This is a simple Arduino-based tea timer that uses an **ultrasonic sensor** to d
 
 ---
 
-## 🔌 Dependencies
+## Dependencies
 
 Make sure the following libraries are installed in your Arduino IDE:
 
@@ -27,7 +27,7 @@ Make sure the following libraries are installed in your Arduino IDE:
 
 ---
 
-## 🧪 Hardware Required
+## Hardware Required
 
 | Component              | Arduino Pin Connections         |
 |------------------------|----------------------------------|
@@ -37,7 +37,7 @@ Make sure the following libraries are installed in your Arduino IDE:
 
 ---
 
-## ⚙️ Setup & Operation
+## Setup & Operation
 
 1. **Upload** the code to your Arduino board.
 2. **Wire** the components as shown in the table above.
@@ -50,20 +50,9 @@ Make sure the following libraries are installed in your Arduino IDE:
 
 ---
 
-## 🧠 Notes
+## Notes
 
 - The timer only counts while the object is detected and not paused.
 - Timer uses a 5 cm threshold to detect a cup or hand.
 - You can customize the IR remote codes to match your own remote.
 
----
-
-## 🔧 Future Improvements
-
-- Add a buzzer to notify when time is up.
-- Add EEPROM support to save the last timer state.
-- Allow setting countdown times via remote input.
-
----
-
-Enjoy perfectly steeped tea every time! ☕
