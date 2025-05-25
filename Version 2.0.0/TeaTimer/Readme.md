@@ -68,6 +68,4 @@ This Arduino project is a **smart tea timer** that automatically starts when wat
 
 ---
 
----
-
 Enjoy perfectly steeped tea every time! 🍃
